@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+<style type="text/css">
+	body,html{
+	padding: 0;
+	margin: 0;
+	background-color: #fad390;
+	font-family: 'Lato', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	border-bottom: 1px solid #888888;
+	font-size: 20px;
+	font-weight: 700;
+}
+#top_nav li{
+	display: inline-block;
+	text-decoration: none;
+}
+#logo_img{
+	max-height: 100px;
+	max-width: 200px;
+	padding-left: 30px;
+}
+.right_nav{
+	float: right;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-right: 50px;
+	text-transform: uppercase;
+}
+
+.head_img{
+	padding-top: 20px;
+	padding-top: 20px;
+	max-width: 100%;
+	overflow-x:hidden;
+    overflow-y:hidden;
+}
+.main_content{
+	padding-left: 30px;
+	padding-top: 30px;
+}
+header{
+	font-size: 27px;
+	font-weight: 700;
+}
+#left{
+	padding-top: 20px;
+	float: left;
+	width: 60%;
+	padding-right: 15px;
+}
+#right{
+	text-align: center;
+	padding-top: 20px;
+	width: 35%;
+	float: left;
+	padding-left: 20px;
+	background-color: #95a5a6;
+	border-radius: 14px;
+}
+#face{
+	padding-top: 20px;
+	max-width: 200px;
+	max-height: 200px;
+}
+.social{
+	max-height: 50px;
+	padding-left: 10px;	
+	padding-bottom: 10px;
+}	
+#bio{
+	text-align: left
+}
+.footer{
+	padding-top: 560px;
+	width: 100%;
+}
+#left_foot{
+	padding-top: 20px;
+	width: 30%;
+	padding-left: 30px;
+	float: left;
+	border-top: 2px solid #444444;
+}
+#mid_foot{
+	padding-top: 20px;
+	float: left;
+	width: 40%;
+	border-top: 2px solid #444444;
+}
+.foot_img{
+	max-height: 50px;
+}
+#right_foot{
+	padding-top: 20px;
+	float: left;
+	width: 25%;
+	border-top: 2px solid #444444;
+}
+#lefty{
+	float: left;
+	width: 40%;
+}
+#righty{
+	float: left;
+	float: 40%;
+}
+
+
+.container {
+    position: relative;
+}
+
+#banner {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover #banner {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+</style>
+
+<section class="navbar">
+	<nav>
+		<ul id="top_nav">
+			<li id="logo"><img src="logo.png" id="logo_img"></li>
+			<li class="right_nav">Contact</li>
+			<li class="right_nav">Resume</li>
+			<li class="right_nav">Blog</li>
+			<li class="right_nav">Home</li>
+		</ul>
+	</nav>
+</section>
+<section class="head_img container">
+	<img src="banner.jpg" id="banner" >
+	<div class="middle">
+    	<div class="text">See Article</div>
+  	</div>
+</section>
+<section class="main_content">
+	<div id="left">
+		<header>I'M A GREAT TRAVELLER</header>
+		<article>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id finibus leo. In hac habitasse platea dictumst. Duis a mollis tortor. Curabitur fermentum diam quis massa porta, sed fringilla nulla porta. Nulla facilisi. Aliquam sed eleifend leo, condimentum ornare nunc. Phasellus ac libero ut augue fringilla porta. Curabitur at auctor metus. Curabitur vehicula vehicula erat.
+			<br><br>
+			Integer mattis tellus sit amet turpis molestie, ut viverra leo efficitur. Maecenas pretium porttitor nibh et efficitur. In blandit ipsum lacus, nec sollicitudin eros lacinia vel. Nulla imperdiet ante eget eros ullamcorper luctus. Sed porta tortor magna, a iaculis nulla aliquam eget. Vivamus tristique nibh magna. Sed tincidunt mi leo, vulputate ultricies nunc euismod cursus. Donec imperdiet ac erat ac mattis. Etiam nunc enim, laoreet ac sagittis vel, fringilla ac dui. In eget elementum dolor, eget elementum metus. Nunc tempus facilisis lacus, ac facilisis nisi posuere vitae. Aliquam sit amet mollis urna, ac pharetra metus.
+			<br><br>
+			Integer mattis tellus sit amet turpis molestie, ut viverra leo efficitur. Maecenas pretium porttitor nibh et efficitur. In blandit ipsum lacus, nec sollicitudin eros lacinia vel. Nulla imperdiet ante eget eros ullamcorper luctus. Sed porta tortor magna, a iaculis nulla aliquam eget. Vivamus tristique nibh magna. Sed tincidunt mi leo, vulputate ultricies nunc euismod cursus. Donec imperdiet ac erat ac mattis. Etiam nunc enim, laoreet ac sagittis vel, fringilla ac dui. In eget elementum dolor, eget elementum metus. Nunc tempus facilisis lacus, ac facilisis nisi posuere vitae. Aliquam sit amet mollis urna, ac pharetra metus.
+			</p>
+		</article>
+	</div>
+	<div id="right">
+		<header>ABOUT THE AUTHOR</header>
+		<article>
+			<img src="face.png" id="face">
+			<p id="bio">
+			Let me introduce myself, my name is zozor. I was born on 23 november,2005. <br><br>A bit meager is it not? This is why I've now decided to write my bio.
+			</p>
+			<img src="fb.png" class="social">
+			<img src="twitter.png" class="social">
+			<img src="vimep.png" class="social">
+			<img src="rss.png" class="social">
+		</article>
+	</div>
+</section>	
+
+<section class="footer">
+	<div id="left_foot">
+		<header>My Last Tweet</header>
+		<p>Hee-Haw!</p>		
+		<p>12/05 23:12</p>
+	</div>
+	<div id="mid_foot">
+		<header>My Pictures</header><br>
+		<img src="Desert.jpg" class="foot_img">
+		<img src="Lighthouse.jpg" class="foot_img">
+		<img src="Desert.jpg" class="foot_img">
+		<img src="Lighthouse.jpg" class="foot_img">
+	</div>
+	<div id="right_foot">
+		<header>my friends</header>
+		<ul>
+			<div id="lefty">
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+			</div>
+			<div id="righty">
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+			</div>			
+		</ul>
+	</div>
+</section>
+
+</body>
+</html>
